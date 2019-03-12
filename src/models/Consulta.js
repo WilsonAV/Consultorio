@@ -11,10 +11,9 @@ const ConsultaSchema = new mongoose.Schema({
     required: true,
   },
   data: {
-    type: Date,
+    type: String,
     required: true,
-  },
-  
+  }  
 });
 
 ConsultaSchema.plugin(mongoosePaginate);
