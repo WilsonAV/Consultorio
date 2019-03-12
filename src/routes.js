@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = express.Router();
 
-const consultorioController = require('./controllers/ConsultaController');
+const consultorioController = require('./controllers/ConsultorioController');
 
 routes.get('/consultas', consultorioController.index);
 routes.get('/consultas/:id', consultorioController.show);
